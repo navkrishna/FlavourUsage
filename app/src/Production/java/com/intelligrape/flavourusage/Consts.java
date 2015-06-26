@@ -7,4 +7,5 @@ public interface Consts {
 
 
     Utils.TYPE type = Utils.TYPE.PRODUCTION;
+    String url = "production url";
 }

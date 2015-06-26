@@ -1,9 +1,7 @@
 package com.intelligrape.flavourusage;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
 
@@ -15,6 +13,7 @@ public class MyActivity extends ActionBarActivity {
         setContentView(R.layout.activity_my);
         TextView tvInfo = (TextView) findViewById(R.id.tvInfo);
         tvInfo.setText("Build Flavour: " + Consts.type);
+        tvInfo.append("\nurl: " + Consts.url);
     }
 
 }

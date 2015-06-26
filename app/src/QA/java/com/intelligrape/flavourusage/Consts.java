@@ -7,4 +7,5 @@ public interface Consts {
 
 
     Utils.TYPE type = Utils.TYPE.QA;
+    String url = "qa url";
 }
